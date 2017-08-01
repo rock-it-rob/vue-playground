@@ -9,5 +9,8 @@
   "scripts": {
     "build": "webpack",
     "clean": "del dist/bundle.js"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
