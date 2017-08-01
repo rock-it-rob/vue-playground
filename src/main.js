@@ -1,4 +1,4 @@
-function alertMe(event)
+window.alertMe = function()
 {
-  alert(event.target);
+  alert("Hello");
 }
