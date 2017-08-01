@@ -3,6 +3,7 @@
   "description": "Just a test project for Vue.js, npm, and webpack",
   "version": "1.0.0",
   "author": "Rob Benton",
+  "license": "LGPL",
   "devDependencies": {
     "webpack": "^3.4.1"
   },
