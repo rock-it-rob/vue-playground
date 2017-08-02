@@ -1,8 +1,9 @@
-import $ from "jquery";
+import Vue from "vue";
+import "./component/banner.js";
 
-window.alertMe = function()
-{
-  alert("Hello");
-}
-
-$("p").html("Break Me");
+new Vue({
+  el: "#app-main",
+  data: {
+    title: "My Banner Component"
+  }
+});
