@@ -6,5 +6,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
-  devtool: "eval-source-map"
+  devtool: "eval-source-map",
+  devServer: {
+    contentBase: path.resolve(__dirname, "dist"),
+    port: 8080
+  }
 }

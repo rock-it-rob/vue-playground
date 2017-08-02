@@ -3,13 +3,14 @@
   "description": "Just a test project for Vue.js, npm, and webpack",
   "version": "1.0.0",
   "author": "Rob Benton",
-  "license": "LGPL",
+  "license": "LGPL-3.0",
   "devDependencies": {
-    "webpack": "^3.4.1"
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
   },
   "scripts": {
-    "build": "webpack",
-    "server": "cd server && node app.js",
+    "prestart": "webpack",
+    "start": "webpack-dev-server",
     "clean": "cd dist && del bundle.js bundle.js.map"
   },
   "dependencies": {
