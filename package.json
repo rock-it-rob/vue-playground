@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "clean": "del dist/bundle.js"
+    "clean": "cd dist && del bundle.js bundle.js.map"
   },
   "dependencies": {
     "jquery": "^3.2.1"
