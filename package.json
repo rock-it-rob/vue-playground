@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "server": "cd server && node app.js",
     "clean": "cd dist && del bundle.js bundle.js.map"
   },
   "dependencies": {
