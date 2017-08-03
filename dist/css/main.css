@@ -10,23 +10,3 @@ body
 {
   margin-top: 20px;
 }
-
-h1
-{
-  font-size: 2em;
-  text-align: center;
-}
-
-p
-{
-  font-size: 1.4em;
-  text-align: center;
-}
-
-input[type=button]
-{
-  margin: 10px auto;
-  display: block;
-  padding: 8px;
-  font-size: 1.2em;
-}

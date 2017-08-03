@@ -1,7 +1,6 @@
 <template>
-<div>
-  <h1 class="banner">{{ value }}</h1>
-  <input type="text" v-model="value"/>
+<div class="banner">
+  <h1>{{ value }}</h1>
 </div>
 </template>
 
@@ -11,12 +10,5 @@ export default {
   data: function() {
     return { value: this.title }
   }
-  /*
-  data: function () {
-    return {
-      value: this.title
-    };
-  }
-  */
 };
 </script>
