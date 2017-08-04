@@ -1,14 +1,17 @@
 .banner
 {
   background: #610;
+  background: #fff;
   padding: 14px;
-  border-bottom: 2px solid #d00;
+  border: 1px solid #daa;
+  border-bottom: 2px solid #daa;
+  margin: 0 10px;
 }
 
 .banner h1
 {
-  color: #a22;
+  color: #e66;
   font-size: 2em;
   text-align: center;
-  text-shadow: #200 1px 1px;
+  text-shadow: #aaa 1px 1px;
 }
