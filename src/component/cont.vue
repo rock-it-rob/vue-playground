@@ -13,10 +13,9 @@ export default {
 <style>
 .content
 {
-  background: #fff;
-  color: #000;
+  color: #f44;
   margin: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #eee;
   padding: 4px;
 }
 </style>
