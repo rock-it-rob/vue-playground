@@ -25,3 +25,33 @@ module.exports = {
   }
 }
 </script>
+
+<style>
+.trailer
+{
+  background: #f92;
+  color: #fda;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.trailer p
+{
+  font-size: .9em;
+  margin: 6px;
+}
+
+.trailer .author
+{
+  font-size: 1.1em;
+  font-family: monospace;
+  color: #fff;
+}
+
+.trailer .bio
+{
+  display: inline-block;
+}
+</style>
