@@ -45,13 +45,12 @@ module.exports = {
 
 .trailer .author
 {
-  font-size: 1.1em;
   font-family: monospace;
   color: #fff;
 }
 
 .trailer .bio
 {
-  display: inline-block;
+  font-size: 1em;
 }
 </style>
