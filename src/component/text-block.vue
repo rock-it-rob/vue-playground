@@ -15,16 +15,20 @@ export default {
 .section
 {
   font-size: 1em;
-  background: #888;
   margin-bottom: 20px;
+
 }
 
 .section h2
 {
   font-size: 1.2em;
-  color: #fbb;
-  background: #444;
-  padding: 8px;
+  color: #d66;
+  background: #722;
+  background: #fee;
+  color: #400;
+  border-bottom: 2px solid #e44;
+  padding: 6px 18px;
+  display: inline-block;
 }
 
 .section .text
