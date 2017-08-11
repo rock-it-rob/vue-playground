@@ -24,7 +24,6 @@ export default {
 
 .banner h1
 {
-
   color: #f44;
   font-size: 2em;
   text-align: center;
