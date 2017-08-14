@@ -1,7 +1,7 @@
 <template>
   <div class="trailer">
     <p>
-      This site created and maintained by:
+      This site created and maintained by
       <span class="author">{{ author }}</span>
     </p>
     <p>
@@ -48,6 +48,8 @@ module.exports = {
 .trailer .author
 {
   font-weight: bold;
+  font-size: .9em;
+  text-decoration: underline;
 }
 
 .trailer .bio
