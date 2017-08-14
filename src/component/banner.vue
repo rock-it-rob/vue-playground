@@ -16,10 +16,10 @@ export default {
 <style>
 .banner
 {
-  background: #fdd;
-  padding: 2px;
-  border: 1px solid #fcc;
-  margin: 0 10px;
+  background: #fafafa;
+  border-bottom: 2px solid #eee;
+  padding: 10px;
+  border-top: 1px solid #f44;
 }
 
 .banner h1
@@ -27,7 +27,7 @@ export default {
   color: #f44;
   font-size: 2em;
   text-align: center;
-  text-shadow: #aaa 1px 1px;
+  text-shadow: #fcc 1px 2px;
   padding: 10px 0;
 }
 </style>

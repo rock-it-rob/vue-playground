@@ -30,7 +30,7 @@ export default {
 {
   color: #f44;
   margin: 10px;
-  border: 2px solid #eee;
   padding: 4px;
+  text-align: center;
 }
 </style>

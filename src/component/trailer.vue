@@ -35,6 +35,7 @@ module.exports = {
   position: fixed;
   bottom: 0;
   width: 100%;
+  text-align: center;
 }
 
 .trailer p
