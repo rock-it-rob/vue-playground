@@ -29,13 +29,14 @@ module.exports = {
 <style>
 .trailer
 {
-  background: #f92;
-  color: #fda;
+  background: #fd6;
+  color: #f92;
   padding: 20px;
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
+  border-top: 1px solid #fa2;
 }
 
 .trailer p
@@ -46,8 +47,7 @@ module.exports = {
 
 .trailer .author
 {
-  font-family: monospace;
-  color: #fff;
+  font-weight: bold;
 }
 
 .trailer .bio
