@@ -29,14 +29,14 @@ module.exports = {
 <style>
 .trailer
 {
-  background: #fd6;
-  color: #f92;
+  background: #444;
+  color: #888;
   padding: 20px;
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
-  border-top: 1px solid #fa2;
+  border-top: 1px solid #333;
 }
 
 .trailer p
